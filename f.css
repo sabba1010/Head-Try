@@ -1,0 +1,100 @@
+ 
+ body {
+   background-color: rgb(74, 0, 143);
+ }
+ 
+ /* Header Start */
+ .div{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ header{
+    display: flex;
+ }
+
+ nav > ul{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+ }
+ 
+
+ nav a {
+    text-decoration: none;
+    color: aliceblue;
+ }
+
+ nav li {
+    list-style: none;
+    margin-right: 15px;
+    
+
+ }
+
+ nav li :hover{
+    color: black;
+ }
+
+ /* Dropdown */
+
+ nav li .dropdown {
+display: none;
+ }
+
+ nav li:hover .dropdown {
+    display: block;
+ }
+/* Drop Down End */
+
+
+
+
+
+ /* Header End */
+
+ 
+
+ /* Main Center div */
+
+ 
+ .main{
+    background-image:url(istockphoto-469538141-612x612.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+   display: flex;
+   
+    
+  
+
+ }/* 
+ .d1{
+    background-color: aliceblue;
+    height: 90px;
+    display: flex;
+ }
+ .d2{
+    background-color: blueviolet;
+    height: 100px;
+    display: flex;
+ }
+
+*/
+
+table{
+    color: aliceblue;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+}
+td,th{
+    border: 1px solid white;
+}
+    
+
+    footer{
+        text-align: center;
+        color: rgb(102, 0, 0);
+    }
